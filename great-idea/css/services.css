@@ -66,14 +66,15 @@ h1, h2, h3, h4, h5 {
 
 /* bb */
 
+
+
+
 header{
-    /* border: 2px solid red; */
     margin-top: 20px;
     display:flex;
 }
 
 .navi{
-    /* border: 2px solid green; */
     margin-left: 10px;
     margin-top: 20px;
     width: 70%;
@@ -88,7 +89,6 @@ header{
 
 header .logo{
     margin-left: 50px;
-    /* border: 2px solid black; */
 }
 
 .bar-image{
@@ -109,10 +109,7 @@ header .logo{
 }
 
 .subjects{
-    /* border: 2px solid red; */
-    /* width: 45%; */
-   /* padding: 40px; */
-   height: 26%;
+   height: auto;
     display: flex;
     justify-content: space-around;
 }
@@ -123,8 +120,6 @@ header .logo{
     width: 42%;
     margin: 20px ;
     padding: 20px;
-    /* padding: 20px; */
-    /* height: 75%; */
 }
 .subjects button{
     margin-top: 14px;
@@ -143,6 +138,10 @@ header .logo{
 .facts .lists{
     width: 49%;
     margin-top: 20px;
+}
+
+.facts li {
+    margin-top: 15px;
 }
 
 .facts .services-info-img{
